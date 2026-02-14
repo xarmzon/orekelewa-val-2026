@@ -50,7 +50,7 @@ const photos = [
 const PhotoGallery = () => {
   return (
     <section
-      className="py-24 px-6 bg-black/60 bg-center bg-blend-overlay bg-fixed"
+      className="py-24 px-6 bg-black/50 bg-center bg-blend-overlay bg-fixed"
       style={{ backgroundImage: `url(${photo24})` }}
     >
       <div className="max-w-5xl xl:max-w-[1300px] mx-auto">
