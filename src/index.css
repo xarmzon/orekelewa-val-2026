@@ -200,7 +200,7 @@
     opacity: 0.3;
   }
   100% {
-    transform: translateY(-10vh) rotate(720deg);
+    transform: translateY(-50vh) rotate(720deg);
     opacity: 0;
   }
 }
