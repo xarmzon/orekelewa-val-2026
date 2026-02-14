@@ -36,15 +36,15 @@ const photos = [
   { src: photo12, love: "Я тебя люблю" },
   { src: photo13, love: "Ik hou van je" },
   { src: photo14, love: "我爱你" },
-  { src: photo15, love: "ฉันรักคุณ" },
-  { src: photo16, love: "Σ' αγαπώ" },
+  { src: photo15, love: "Arewa Mi" },
+  { src: photo16, love: "Forever Mine" },
   { src: photo17, love: "Jag älskar dig" },
   { src: photo18, love: "Seni seviyorum" },
   { src: photo19, love: "Mahal kita" },
   { src: photo20, love: "Nakupenda" },
-  { src: photo21, love: "Ina son ku" },
-  { src: photo22, love: "Ina son ku (Hausa)" },
-  { src: photo23, love: "A hụrụ m gị n’anya" },
+  { src: photo21, love: "My Angel" },
+  { src: photo22, love: "My Heart" },
+  { src: photo23, love: "Iyawo Mi" },
 ];
 
 const PhotoGallery = () => {
@@ -61,7 +61,7 @@ const PhotoGallery = () => {
           Moments Together
         </h2>
 
-        <div className="columns-1 sm:columns-2 lg:columns-3 2xl:columns-4 gap-4 space-y-4">
+        <div className="columns-2 md:columns-3 xl:columns-4 gap-4 space-y-4">
           {photos.map((photo, i) => (
             <div key={i} className="gallery-item">
               <img src={photo.src} alt={`Memory ${i + 1}`} loading="lazy" />
