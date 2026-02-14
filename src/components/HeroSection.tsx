@@ -39,7 +39,10 @@ const HeroSection = () => {
           Precious Oluwasayofunmi
         </p>
         <div className="mt-12 animate-fade-in-up animate-delay-600">
-          <span className="text-2xl" style={{ color: "hsl(350, 50%, 75%)" }}>
+          <span
+            className="text-7xl md:text-8xl animate-pulse"
+            style={{ color: "hsl(350, 50%, 75%)" }}
+          >
             ♥
           </span>
         </div>
